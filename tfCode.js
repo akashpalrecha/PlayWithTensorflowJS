@@ -10,8 +10,7 @@ function updateLogStatus(text){
 }
 
 const x = tf.cast(tf.ones([4,4,3]), 'int32').add(254);
-// console.log(x);
 updateLogStatus(x);
-updateLogStatus("Lol");
+updateLogStatus("Mic check. mic check.");
 const y = tf.image.resizeBilinear(x, [2,2]);
 updateLogStatus(y);
